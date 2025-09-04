@@ -1,32 +1,13 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Redirecting...</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="refresh" content="0; url=https://t.me/sharechatagentloot" />
   <script>
-    const encryptedNumbers = ["AfHtGIQm9uRIY5iOess1Sw==", "YVeu/GYM6QjkvQ+hf2zFsg==", "kM6xVc9dWgwBxHTeGSgFvw==", "so17KaxJtXKIO+7vi/Vj/A==", "M68SlAdy4jcnSXEbk6LhhA==", "lFaFmpHYMkAvtoVmnXdCJg==", "m32FLqukNmou9CjKZtjjow==", "9XG+ZY/QnGQSIf2awdVjVQ==", "tjqpDwJt8lPqwZhoGeq/Dw==", "1QlVbNSdEd/u2ylKhdeVkQ==", "GuBQfa2SMo1FgCbZgKBINQ==", "UySUQOuIdp/vyor3JypBqw==", "/ZYNsVusypqAQi/OSKpWhg==", "49HzFkIGBPmFX3N6PTaXWA==", "aZT3gmp5kfL3FEsGgew6kQ==", "qA+S38lm2r7g2s9i5alIRA==", "M38zlMjGLO3sd0XJd0Ndtg==", "OID7Kv/MoUDuOO4joDRjbw==", "IW4WdPhk/xAKn4BW8RWvsg==", "Mgiu9qzX9ZvaApW8LeiRJw==", "UMKvYd+4YsYuryNLNcDGHw==", "kTUCiJdQdl8Wo1UL3FcwWw==", "LIKf7RCtqce76RoAc78CRA==", "iwFTvd4fZBq5AduMmS+Uaw==", "fvRH7R1V0e/BcTxvL0/c9w==", "U1xP9l+KMQUL/Co7lujkbQ==", "cNm5oZmBryXu+8Nq17aiOw==", "8QOtNU8NQ4VR37WtD8vkLg==", "EdOXJzbnp8BVOIWD/Z4ezg==", "IYMJNKBDEPyGZ+xUOq5Kgg==", "pk0bjfTSD24xfdlaeEy28w==", "HB+eG/XSsN9B2rv4i7F75A==", "QlF74lLhUE9+hErtfCgHww==", "bFCw+chWs6ym80Io7tXpBw==", "oTySbkFSCWvbQnAms9NV6A==", "BGGVseAtfRh5Ej2n79D/ZA==", "Ofrx4N16E9IzeLy2HTz7Sw==", "mq1DaHv0wUW0R+RD8Zpstw==", "YXKGKyY+jUmZq5l0dItBXg==", "sN7HuGA3IDHYoygB1VPcdA==", "VPS2zcBQVg3FLT+Q4i4xSQ==", "gaW6ruyAQFIF84vqzLi3KA==", "xayRfWy2IpNBPmt+iJy34Q==", "ZChTr0Im5+REUMaETAaoIg==", "jl7awGG+TfcX4V1umNHi5Q==", "aAwus7emSBupeAhrSPhA7w==", "abeTFyhIrJjXM3SW7FE9yg==", "2kJUWH+nCOqIKwPYKl4kTQ=="];
-    const key = CryptoJS.enc.Utf8.parse("ThisIsASecretKey");
-    const iv = CryptoJS.enc.Utf8.parse("ThisIsAnInitVect");
-
-    function decrypt(ciphertext) {
-        const decrypted = CryptoJS.AES.decrypt(
-            { ciphertext: CryptoJS.enc.Base64.parse(ciphertext) },
-            key,
-            { iv: iv, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.Pkcs7 }
-        );
-        return decrypted.toString(CryptoJS.enc.Utf8);
-    }
-
-    window.onload = function() {
-        const randomIndex = Math.floor(Math.random() * encryptedNumbers.length);
-        const number = decrypt(encryptedNumbers[randomIndex]);
-        window.location.href = "https://wa.me/" + number;
-    }
+    // Fallback in case meta refresh is blocked
+    location.replace("https://t.me/sharechatagentloot");
   </script>
+  <title>Redirecting…</title>
 </head>
-<body>
-  <p>Redirecting to WhatsApp...</p>
-</body>
+<body></body>
 </html>
